@@ -1,0 +1,9 @@
+package: github.com/yejiayu/Raft-go
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: golang.org/x/net/context
+- package: google.golang.org/grpc
+  subpackages:
+  - reflection
